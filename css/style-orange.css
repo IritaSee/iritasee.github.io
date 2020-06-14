@@ -10,21 +10,23 @@
 ======================================*/
 
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: rgb(18, 28, 37);
+  color: #bbb4b4;
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+  color: #f8f5f5;
+}
+h2{
   color: #1e1e1e;
 }
 
 a {
-  color: #1e1e1e;
+  color: #f8f5f5;
   transition: all 0.5s ease-in-out;
 }
 
@@ -137,7 +139,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #fff;
   font-size: 1.1rem;
 }
 
@@ -154,7 +156,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #e0dddd;
 }
 
 .line-mf {
@@ -193,7 +195,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgb(21, 32, 43);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -420,7 +422,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color:#fff;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -463,19 +465,19 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: rgb(21, 32, 43);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -685,7 +687,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #f3b683;
 }
 
 .skill-mf .progress {
