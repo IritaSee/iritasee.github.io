@@ -357,7 +357,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(21, 32, 43);
 }
 
 #preloader:before {
@@ -510,9 +510,9 @@ a:hover {
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 600;
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 200;
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
