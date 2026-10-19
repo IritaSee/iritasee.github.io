@@ -1,10 +1,3 @@
-# iritasee.github.io
-Hi! This is my creative CV on the web, thanks to:
+# iganarendra.my.id
 
-    
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-   
-
+Source of my personal website, published with GitHub Pages. Plain HTML, CSS and JS. Design notes are in DESIGN.md.
