@@ -139,6 +139,10 @@ html[data-theme="dark"] { --hero-rgb: 7, 16, 34; }
     var(--navy) url("../img/intro.jpg") 58% 100% / cover no-repeat;
 }
 .hero .container { width: 100%; }
+@media (max-width: 679px) {
+  .over-hero { position: relative; background: rgb(var(--hero-rgb)); }
+  .hero { padding-block: 40px 56px; min-height: 0; }
+}
 .hero-copy { max-width: 36rem; }
 .hero h1 { font-size: clamp(3.2rem, 9vw, 7rem); font-weight: 400; letter-spacing: -0.03em; line-height: 1; }
 .hero .full-name { font-family: var(--sans); font-size: 1rem; color: var(--navy-muted); margin: 18px 0 0; }
